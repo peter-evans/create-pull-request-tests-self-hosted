@@ -6,6 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - run: git remote prune origin
+
       - name: Make changes to pull request
         run: date +%s > report.txt
 
