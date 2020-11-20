@@ -10,7 +10,7 @@ jobs:
         run: date +%s > report.txt
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3-beta
+        uses: peter-evans/create-pull-request@v3
         with:
           commit-message: Update report
           committer: GitHub <noreply@github.com>
