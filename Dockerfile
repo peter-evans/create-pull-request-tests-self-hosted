@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV RUNNER_VERSION=2.267.1
+ENV RUNNER_VERSION=2.314.1
 
 RUN useradd -m actions \
  && apt-get update \
